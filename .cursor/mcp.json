@@ -1,0 +1,14 @@
+{
+    "servers": [
+        {
+            "name": "figma-mcp",
+            "type": "figma",
+            "command": "npx figma-mcp-server",
+            "env": {
+                "FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
+            },
+            "description": "Project-specific Figma MCP server for Claude Code",
+            "version": "0.1.0"
+        }
+    ]
+}
